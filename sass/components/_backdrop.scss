@@ -1,0 +1,20 @@
+
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.2);
+
+    opacity: 1;
+
+    transition: opacity 250ms $cubic-bezier,
+    visibility 250ms $cubic-bezier;
+}
+.backdrop.is-hidden {
+    visibility: 0;
+    opacity: 0;
+}

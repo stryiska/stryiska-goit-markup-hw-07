@@ -1,0 +1,27 @@
+@import './base/reset';
+@import './utils/normalize';
+@import './utils/vars';
+
+@import './base/common';
+@import './components/btn';
+
+
+
+@import './pages/home';
+// @import './layouts/header'; 
+// @import './layouts/hero'; 
+// @import './layouts/features'; 
+// @import './layouts/work-gallery'; 
+// @import './layouts/team'; 
+// @import './layouts/partners'; 
+// @import './layouts/footer'; 
+@import './components/backdrop';
+@import './components/modal';
+// @import './components/grid';
+@import './pages/portfolio';
+// @import './layouts/projects';
+
+
+
+@import './utils/hidden';
+

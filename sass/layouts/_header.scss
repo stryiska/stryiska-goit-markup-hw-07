@@ -1,0 +1,16 @@
+ .header {
+    border-bottom: 1px solid #ECECEC;
+
+    &--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+ }
+}
+.container--logo-nav {
+   display:flex;
+   align-items: center;
+}
+
+@import '../components/logo-header';
+@import '../components/nav';
